@@ -85,8 +85,8 @@ make run-test-tier1
 #### Install JDK 11 as bootstrap jdk (coule be from Oracle or any OpenJDK distribution):
 - I've used this version: https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html
 - Add JAVA_HOME:
-<img src="https://raw.githubusercontent.com/komesergey/jdk-12-fastdebug-building-instructions/master/image_2019-04-20_01-27-37.png" width="700"/>
-<img src="https://raw.githubusercontent.com/komesergey/jdk-12-fastdebug-building-instructions/master/image_2019-04-20_01-28-41.png" width="700"/>
+<img src="https://raw.githubusercontent.com/komesergey/jdk-12-fastdebug-building-instructions/master/image_2019-04-20_01-27-37.png" width="500"/>
+<img src="https://raw.githubusercontent.com/komesergey/jdk-12-fastdebug-building-instructions/master/image_2019-04-20_01-28-41.png" width="600"/>
 
 #### Download jtreg from https://openjdk.java.net/jtreg/ and add jtreg and bootstrap JDK to PATH:
 <img src="https://raw.githubusercontent.com/komesergey/jdk-12-fastdebug-building-instructions/master/image_2019-04-20_02-48-52.png" width="700"/>
