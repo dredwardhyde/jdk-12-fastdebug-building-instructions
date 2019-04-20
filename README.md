@@ -1,4 +1,4 @@
-### How to make fastdebug JDK 12 build on macOS 14 Mojave
+## How to make fastdebug JDK 12 build on macOS 14 Mojave
 
 - macOS version
 <img src="https://raw.githubusercontent.com/komesergey/jdk-12-fastdebug-building-instructions/master/8.png" width="580"/>
@@ -74,7 +74,7 @@ make run-test-tier1
 <img src="https://raw.githubusercontent.com/komesergey/jdk-12-fastdebug-building-instructions/master/2.png" width="750"/>
 
 
-### How to make fastdebug JDK 12 build on Windows 10
+## How to make fastdebug JDK 12 build on Windows 10
 
 #### Install Visual Studio 2017
 - I've choosed following components for installation:
@@ -152,10 +152,11 @@ cd build/windows-x86_64-server-fastdebug/images/jdk/bin/
 ```
 <img src="https://raw.githubusercontent.com/komesergey/jdk-12-fastdebug-building-instructions/master/image_2019-04-20_02-47-02.png" width="1000"/>
 
-#### Run tier1 tests from root folder:
+#### Run tier1 tests from root folder (some of them will fail):
 
 ```sh
 make run-test-tier1
 ```
 <img src="https://raw.githubusercontent.com/komesergey/jdk-12-fastdebug-building-instructions/master/image_2019-04-20_02-58-13.png" width="1000"/>
+<img src="https://raw.githubusercontent.com/komesergey/jdk-12-fastdebug-building-instructions/master/D4joRw5XkAA4qEp.png" width="1000"/>
 <img src="https://raw.githubusercontent.com/komesergey/jdk-12-fastdebug-building-instructions/master/image_2019-04-20_11-26-20.png" width="1000"/>
