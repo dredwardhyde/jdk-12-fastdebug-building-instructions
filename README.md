@@ -53,13 +53,14 @@ hg clone http://hg.openjdk.java.net/jdk-updates/jdk12u/
 - Create build configuration with following commands
 ```sh
 cd jdk12u
-./configure --enable-debug --disable-warnings-as-errors --with-jtreg
+./configure --with-debug-level=fastdebug --disable-warnings-as-errors --with-jtreg
 ```
 <img src="https://raw.githubusercontent.com/dredwardhyde/jdk-12-fastdebug-building-instructions/master/images/4.png" width="1100"/>
 
 - Build JDK
 ```sh
-make CONF=debug
+make CONF=fastdebug
+make images CONF=fastdebug
 ```
 <img src="https://raw.githubusercontent.com/dredwardhyde/jdk-12-fastdebug-building-instructions/master/images/5.png" width="1000"/>
 
@@ -120,7 +121,7 @@ hg clone http://hg.openjdk.java.net/jdk-updates/jdk12u/
 #### Create JDK 12 build configuration in cygwin using following command from the root folder of cloned repo:
 ```sh
 cd /cygdrive/c/<path to repo>
-./configure --enable-debug --disable-warnings-as-errors --with-target-bits=64 --with-jtreg
+./configure --with-debug-level=fastdebug --disable-warnings-as-errors --with-target-bits=64 --with-jtreg
 ```
 <img src="https://raw.githubusercontent.com/dredwardhyde/jdk-12-fastdebug-building-instructions/master/images/image_2019-04-20_02-26-24.png" width="1000"/>
 
@@ -132,13 +133,13 @@ cd /cygdrive/c/<path to repo>
 
 #### Now we are ready to make JDK build using command:
 ```sh
-make CONF=debug
+make CONF=fastdebug
 ```
 <img src="https://raw.githubusercontent.com/dredwardhyde/jdk-12-fastdebug-building-instructions/master/images/image_2019-04-20_02-31-29.png" width="1000"/>
 <img src="https://raw.githubusercontent.com/dredwardhyde/jdk-12-fastdebug-building-instructions/master/images/image_2019-04-20_02-40-59.png" width="1000"/>
 
 ```sh
-make images
+make images CONF=fastdebug
 ```
 <img src="https://raw.githubusercontent.com/dredwardhyde/jdk-12-fastdebug-building-instructions/master/images/image_2019-04-20_02-42-20.png" width="1000"/>
 <img src="https://raw.githubusercontent.com/dredwardhyde/jdk-12-fastdebug-building-instructions/master/images/image_2019-04-20_02-45-02.png" width="1000"/>
